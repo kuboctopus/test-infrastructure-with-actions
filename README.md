@@ -38,18 +38,7 @@ Infrastructure as Code (IaC) の普及により、インフラの構築・管理
 
 ### このコースの開始方法
 
-<!-- コースを開始するには、JavaScript で次のコマンドを実行します。
-'https://github.com/new?' + new URLSearchParams({
-template_owner: 'your-org',
-template_name: 'iac-unit-testing',
-owner: '@me',
-name: 'skills-iac-unit-testing',
-description: 'My clone repository',
-visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=your-org&template_name=iac-unit-testing&owner=%40me&name=skills-iac-unit-testing&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=test-infrastructure-with-actions&owner=%40me&name=skills-test-infrastructure-with-actions&description=My+clone+repository&visibility=public)
 
 1.  **Start course** を右クリックし、リンクを新しいタブで開きます。
 2.  新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
