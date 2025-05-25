@@ -1,0 +1,59 @@
+<header>
+
+<!--
+<<< 作成者メモ: コースヘッダー >>>
+1280×640 の画像、文頭大文字で書かれたコースタイトル、そして強調された簡潔な説明を含めてください。
+リポジトリ設定で、テンプレートリポジトリを有効にし、1280×640 のソーシャル画像を追加し、ヘッドブランチを自動削除してください。
+オープンソースライセンスを追加してください。GitHub は MIT ライセンスを使用しています。
+-->
+
+# IaC 単体テスト入門
+
+_インフラコードの品質を保証し、安全な変更を実現しましょう。_
+
+</header>
+
+<!--
+<<< 作成者メモ: コース開始 >>>
+開始ボタン、Actions の所要時間に関するメモ、そして受講者にこのコースを受講するべき理由を伝えてください。
+-->
+
+## ようこそ
+
+Infrastructure as Code (IaC) の普及により、インフラの構築・管理が自動化されました。しかし、コードに誤りがあれば、予期せぬ障害を引き起こす可能性があります。このコースでは、IaC の単体テストの基礎を学び、品質を確保し、安全な変更を実現する方法を解説します。
+
+- **対象者**: 新規開発者、IaC を利用しているチーム。
+- **学習内容**: インフラの単体テストと自動化。
+- **構築内容**: このコースでは、Go言語でコンテナの単体テストを構築し自動化します。
+- **前提条件**: このコースを受講する前に、[]() を受講することをお勧めします (任意)。
+- **所要時間**: このコースの所要時間は 60 分未満です。
+
+このコースでは、以下の内容を学習します。
+
+1.  単体テストの概要を理解する
+2.  テスト対象を特定する
+3.  適切なテストツールを選択する
+4.  テストコードを記述する
+5.  CI/CD パイプラインに組み込む
+
+### このコースの開始方法
+
+<!-- コースを開始するには、JavaScript で次のコマンドを実行します。
+'https://github.com/new?' + new URLSearchParams({
+template_owner: 'your-org',
+template_name: 'iac-unit-testing',
+owner: '@me',
+name: 'skills-iac-unit-testing',
+description: 'My clone repository',
+visibility: 'public',
+}).toString()
+-->
+
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=your-org&template_name=iac-unit-testing&owner=%40me&name=skills-iac-unit-testing&description=My+clone+repository&visibility=public)
+
+1.  **Start course** を右クリックし、リンクを新しいタブで開きます。
+2.  新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
+    *   オーナーとして、個人アカウントまたはリポジトリをホストする組織を選択します。
+    *   プライベートリポジトリは[Actionsの分単位の課金](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)が発生するため、パブリックリポジトリを作成することをお勧めします。
+    *   下にスクロールし、フォームの下部にある**Create repository**ボタンをクリックします。
+3.  新しいリポジトリが作成されたら、約20秒待ってからページを更新します。新しいリポジトリのREADMEに記載されている手順に従ってください。
